@@ -13,3 +13,4 @@ pytesseract
 numpy
 tqdm
 requests
+pypdf
