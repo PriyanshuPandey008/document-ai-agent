@@ -12,3 +12,4 @@ pillow
 pytesseract
 numpy
 tqdm
+requests
