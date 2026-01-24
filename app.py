@@ -5,7 +5,7 @@ from backend.processing import process_document
 from backend.vector_store import store_chunks
 from backend.agent import ask_agent
 
-load_dotenv()
+
 
 # -----------------------------
 # PAGE CONFIG
