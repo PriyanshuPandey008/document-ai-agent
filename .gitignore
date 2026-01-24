@@ -1,0 +1,50 @@
+# ===============================
+# Python / Virtual Environment
+# ===============================
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# ===============================
+# Data & Runtime Artifacts
+# ===============================
+data/
+uploads/
+vector_store/
+*.faiss
+*.pkl
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.temp
+
+# ===============================
+# Testing (future-proof)
+# ===============================
+.pytest_cache/
+.coverage

@@ -1,0 +1,14 @@
+streamlit
+python-dotenv
+azure-identity
+azure-storage-blob
+openai
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+pdfplumber
+pillow
+pytesseract
+numpy
+tqdm
