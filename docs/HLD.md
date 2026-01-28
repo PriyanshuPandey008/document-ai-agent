@@ -165,13 +165,13 @@ The design supports future scaling by:
 
 ## 7. Non-Functional Requirements
 
-| Requirement | Approach |
-|------------|---------|
-| Security | Private Blob Storage, RBAC (planned) |
-| Performance | Chunking + vector search |
-| Reliability | Stateless frontend |
-| Maintainability | Modular backend |
-| Extensibility | Pluggable OCR and vector DB |
+| Requirement     | Approach                             |
+|-----------------|--------------------------------------|
+| Security        | Private Blob Storage, RBAC (planned) |
+| Performance     | Chunking + vector search             |
+| Reliability     | Stateless frontend                   |
+| Maintainability | Modular backend                      |
+| Extensibility   | Pluggable OCR and vector DB          |
 
 ---
 

@@ -17,7 +17,7 @@ def ingest_file(uploaded_file):
 
     # ✅ UPLOAD TO BLOB (BYTES, NOT BUFFER)
     blob_url = upload_file(
-        file_bytes=uploaded_file.getvalue(),   # 🔥 THIS LINE FIXES EVERYTHING
+        file_bytes=uploaded_file.getvalue(),
         filename=f"{document_id}_{filename}"
     )
 

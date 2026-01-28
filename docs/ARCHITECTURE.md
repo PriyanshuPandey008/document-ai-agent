@@ -62,12 +62,12 @@ The architecture prioritizes:
 
 ## Design Decisions
 
-| Decision | Rationale |
-|--------|-----------|
-| FAISS | Lightweight, fast prototyping |
-| Azure OpenAI | Enterprise-grade AI models |
+| Decision     | Rationale                        |
+|--------------|----------------------------------|
+| FAISS        | Lightweight, fast prototyping    |
+| Azure OpenAI | Enterprise-grade AI models       |
 | Blob Storage | Secure and scalable file storage |
-| Streamlit | Rapid prototyping and demos |
+| Streamlit    | Rapid prototyping and demos      |
 
 ---
 

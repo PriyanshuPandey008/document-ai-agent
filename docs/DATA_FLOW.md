@@ -19,7 +19,8 @@ This document describes how data flows through the system from upload to answer.
 - Metadata is recorded:
   - document_id
   - filename
-  - timestamp
+  - localpath
+  - blob url
 
 ---
 

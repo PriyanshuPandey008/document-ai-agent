@@ -21,7 +21,7 @@ def upload_file(file_bytes: bytes, filename: str) -> str:
     blob_client = container_client.get_blob_client(filename)
 
     blob_client.upload_blob(
-        file_bytes,            # ✅ bytes ONLY
+        file_bytes,           
         overwrite=True
     )
 
